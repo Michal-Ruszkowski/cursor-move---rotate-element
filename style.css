@@ -1,0 +1,27 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+#container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:100vw;
+    height:100vh;
+    overflow: hidden;
+}
+
+.diploma{
+    width:12vw;
+    height:16vw;
+    opacity:80%;
+    -webkit-transition:opacity 0.5s;
+    -o-transition: opacity 0.5s;
+    transition: opacity 0.5s;
+}
+
+.diploma:hover{
+    opacity:100%;
+}
+
